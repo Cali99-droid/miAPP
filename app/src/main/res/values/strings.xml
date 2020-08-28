@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">miAPP</string>
+    <string name="nombreCompleto">Nombre Completo</string>
+    <string name="fechadeNacimiento">Seleccionar Fecha de nacimiento </string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email: </string>
+    <string name="descripcion">Descripción del contacto: </string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="pNombre">nombre</string>
+    <string name="pFecha">fecha</string>
+    <string name="pTelf">telf</string>
+    <string name="pMail">email</string>
+    <string name="pDesc">desc</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/nombreCompleto"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"></EditText>
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/fechadeNacimiento"
+            android:textColorHint="@color/colorAccent"
+
+            android:textSize="19dp"></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTelf"
+            android:hint="@string/telefono"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            ></EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:hint="@string/email"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            ></EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDesc"
+            android:hint="@string/descripcion"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            ></EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSiguiente"
+            android:id="@+id/btnSiguiente"
+            android:layout_marginTop="200dp"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
